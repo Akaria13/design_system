@@ -1,5 +1,5 @@
 {
-  "name": "new",
+  "homepage": "https://Akaria13.github.io/design_system",
   "version": "0.1.0",
   "description": "",
   "main": "index.ts",
@@ -7,11 +7,13 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
+   
   },
   "keywords": [],
   "author": "Akash",
   "license": "ISC",
   "devDependencies": {
+    "@babel/cli": "^7.21.0",
     "@babel/preset-env": "^7.21.4",
     "@babel/preset-react": "^7.18.6",
     "@babel/preset-typescript": "^7.21.4",
@@ -23,13 +25,20 @@
     "@storybook/react": "^7.0.4",
     "@storybook/react-webpack5": "^7.0.4",
     "@storybook/testing-library": "^0.0.14-next.2",
+    "cross-env": "^7.0.3",
+    "gh-pages": "^5.0.0",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
     "storybook": "^7.0.4"
   },
   "dependencies": {
+    "@rollup/plugin-node-resolve": "^15.0.2",
     "@types/styled-components": "^5.1.26",
+    "rollup": "^3.20.2",
+    "rollup-plugin-babel": "^4.4.0",
     "styled-components": "^5.3.9",
     "typescript": "^5.0.4",
     "vite": "^4.2.1"

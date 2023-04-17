@@ -8,6 +8,7 @@ import {
   Label,
   Wrapper,
 } from "./Input.style";
+
 import { InfoIcon, ProfileIcon } from "../../Icons/IconList";
 interface InputProps extends HTMLAttributes<HTMLInputElement> {
   label: string;
