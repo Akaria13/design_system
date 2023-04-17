@@ -1,13 +1,13 @@
 {
-  "homepage": "https://Akaria13.github.io/design_system",
+  "homepage": "https://Akaria13.github.io/design_system/",
   "version": "0.1.0",
   "description": "",
   "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
-   
+    "build-storybook": "storybook build",
+    "deploy": "gh-pages -d storybook-static"
   },
   "keywords": [],
   "author": "Akash",
@@ -37,6 +37,8 @@
   "dependencies": {
     "@rollup/plugin-node-resolve": "^15.0.2",
     "@types/styled-components": "^5.1.26",
+    "path": "^0.12.7",
+    "path-browserify": "^1.0.1",
     "rollup": "^3.20.2",
     "rollup-plugin-babel": "^4.4.0",
     "styled-components": "^5.3.9",
