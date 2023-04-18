@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.ts",
   "scripts": {
+    "start": "react-start",
+    "build": "react-build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
@@ -25,6 +27,7 @@
     "@storybook/react": "^7.0.4",
     "@storybook/react-webpack5": "^7.0.4",
     "@storybook/testing-library": "^0.0.14-next.2",
+    "@types/react-dom": "^18.0.11",
     "cross-env": "^7.0.3",
     "gh-pages": "^5.0.0",
     "prop-types": "^15.8.1",
